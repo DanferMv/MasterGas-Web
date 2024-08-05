@@ -1,0 +1,298 @@
+
+
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+nav .logo img {
+  width: 150px;
+}
+
+nav .contact-button {
+  background-color: #002855;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav .contact-button:hover {
+  background-color: #001f40;
+}
+
+main {
+  max-width: 1440px;
+  padding: 0 20px;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hero img {
+  max-width: 100vw;
+  height: auto;
+}
+
+.intro,
+.services,
+.why-us,
+.gallery,
+.contact {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.intro img,
+.services img,
+.why-us img,
+.gallery img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+.intro h2,
+.services h2,
+.why-us h2,
+.gallery h2,
+.contact h2 {
+  color: #002855;
+}
+
+.intro p,
+.services p,
+.why-us p,
+.gallery p,
+.contact p {
+  color: #333;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  text-align: center;
+  flex: 1 1 30%;
+  margin: 10px;
+}
+
+.gallery-item img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #002855;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer .footer-logo img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.text {
+    width: 70%;
+}
+
+.image {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.why-us {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.why-us .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.why-us .text {
+    width: 70%;
+}
+
+.why-us .image {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.why-us .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 8px;
+    background-color: #f9f9f9;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 8px;
+}
+
+.gallery-item p {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.free-advice {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+}
+
+.free-advice .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.free-advice .text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.free-advice .image {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.free-advice .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.free-advice .text p {
+    margin: 0 0 8px;
+    font-size: 1rem;
+    color: #333;
+}
