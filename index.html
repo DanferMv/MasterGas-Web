@@ -11,22 +11,45 @@
 
 <body class="px-4 sm:px-8 md:px-16 py-6">
   <header class="px-4 sm:px-10">
-    <nav class="flex flex-col sm:flex-row justify-between items-center text-xl">
-      <ul class="flex flex-wrap justify-center text-blue-700 gap-x-4 sm:gap-x-10 mb-4 sm:mb-0">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Nosotros</a></li>
-        <li><a href="#">Galería</a></li>
-      </ul>
-      <div class="logo flex w-48 mx-auto mb-4 sm:mb-0">
-        <img src="./Imgs//LogoMasterGas.png" alt="Master Gas Logo" />
-      </div>
-      <div class="text-center sm:text-end">
-        <a href="#" class="text-white font-semibold bg-orange-400 px-6 py-2 rounded-lg inline-block">Contáctenos</a>
+    <nav class="bg-white ">
+      <div class="container mx-auto px-4 py-3">
+        <div class="flex flex-col lg:flex-row justify-between items-center">
+          <ul class="flex flex-wrap justify-center text-lg font-medium text-gray-700 gap-x-10 mb-4 lg:mb-0">
+            <li class="group hover:scale-125 transition-transform duration-300">
+              <a href="#" class="relative overflow-hidden pb-1">
+                Inicio
+                <span
+                  class="absolute left-0 bottom-0 w-full h-0.5 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+              </a>
+            </li>
+            <li class="group hover:scale-125 transition-transform duration-300">
+              <a href="#" class="relative overflow-hidden pb-1">
+                Nosotros
+                <span
+                  class="absolute left-0 bottom-0 w-full h-0.5 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+              </a>
+            </li>
+            <li class="group hover:scale-125 transition-transform duration-300">
+              <a href="#" class="relative overflow-hidden pb-1">
+                Galería
+                <span
+                  class="absolute left-0 bottom-0 w-full h-0.5 bg-orange-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
+              </a>
+            </li>
+          </ul>
+          <div class="logo w-48 mb-4 lg:mb-0 text-center md:mr-16 mr-4">
+            <img src="./Imgs/LogoMasterGas.png" alt="Master Gas Logo" class="w-full h-auto" />
+          </div>
+          <div class="text-center">
+            <a href="#"
+              class="text-white font-semibold bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-lg inline-block transition duration-300">Contáctenos</a>
+          </div>
+        </div>
       </div>
     </nav>
   </header>
   <main>
-    <section class="w-full bg-white flex justify-center">
+    <section class="w-full bg-white flex justify-center sm:mt-0 mt-4">
       <img src="./Imgs/Fondo1.png" class="w-full max-w-5xl" alt="Fondo Master Gas" />
     </section>
     <section class="w-full text-[#505F98] my-4">
@@ -166,23 +189,34 @@
       </section>
 
   </main>
-<footer class="flex flex-col md:flex-row w-full justify-between px-4 sm:px-14 text-[#505F98] mt-8">
-  <div class="grid mb-4 md:mb-0">
-    <h2 class="font-bold mb-2">Contáctanos</h2>
-    <p>Lima, Perú</p>
-    <p>+51 999-488-278</p>
-    <p><a href="mailto:ventas@mastergasperu.com">ventas@mastergasperu.com</a></p>
-    <p><a href="mailto:mastergasyservicios@gmail.com">mastergasyservicios@gmail.com</a></p>
-  </div>
-  <div class="flex w-full justify-center text-gray-300 items-end mb-4 md:mb-0">
-    <div>Copyright © 2023 MasterGas, Todos los derechos reservados.</div>
-  </div>
-  <div class="footer-logo w-full md:w-[30%] flex justify-center md:justify-end">
-    <img src="./Imgs//LogoMasterGas.png" alt="Master Gas Logo" class="max-w-[200px]" />
-  </div>
-</footer>
+  <footer class="flex flex-col md:flex-row w-full justify-between px-4 sm:px-14 text-[#505F98] mt-8">
+    <div class="grid mb-4 md:mb-0">
+      <h2 class="font-bold mb-2">Contáctanos</h2>
+      <p>Lima, Perú</p>
+      <p>+51 999-488-278</p>
+      <p><a href="mailto:ventas@mastergasperu.com">ventas@mastergasperu.com</a></p>
+      <p><a href="mailto:mastergasyservicios@gmail.com">mastergasyservicios@gmail.com</a></p>
+    </div>
+    <div class="flex w-full justify-center text-gray-300 items-end mb-4 md:mb-0">
+      <div>Copyright © 2023 MasterGas, Todos los derechos reservados.</div>
+    </div>
+    <div class="footer-logo w-full md:w-[30%] flex justify-center md:justify-end">
+      <img src="./Imgs//LogoMasterGas.png" alt="Master Gas Logo" class="max-w-[200px]" />
+    </div>
+  </footer>
 
   </main>
+  <button class=" fixed  right-6 bottom-4 flex justify-end group">
+
+    <img src="./Imgs/LogoMasterGas.png" alt=""
+      class="rounded-[100%] bg-black w-16 h-16 p-2 text-center flex items-center  bg-cover">
+
+    <div class="group-hover:opacity-100 opacity-0  relative ">
+      <div
+        class="text-white text-sm font-bold bg-orange-400 rounded-xl top-3 absolute right-[66px] px-4 py-2 whitespace-nowrap ">
+        En que te puedo ayudar? </div>
+    </div>
+  </button>
 </body>
 
 </html>
